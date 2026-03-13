@@ -1,1 +1,37 @@
 # Cyber-Security-Projects
+
+🚀 Multithreaded Python Port Scanner
+
+A lightweight, high-speed TCP port scanner written in Python. This tool performs full-range port enumeration (0–65535) against a target host using multithreading and TCP handshake attempts to quickly identify open ports.
+
+⚠️ For authorized testing and educational use only
+
+📌 Features
+
+🔍 Scans ports 0–65535
+
+🤝 Performs real TCP three-way handshake (connect scan)
+
+⚡ Multithreaded for faster performance
+
+🧵 Queue-based worker model
+
+🛑 Timeout handling for stability
+
+🖥️ Works with hostnames or IP addresses
+
+🪶 Lightweight — no external dependencies
+
+🧠 How It Works
+
+User provides a target IP or hostname
+
+Script populates a queue with ports 0–65535
+
+Worker threads pull ports from the queue
+
+Each thread attempts a TCP connection using socket.connect_ex()
+
+Successful connections are reported as OPEN
+
+Scan completes when the queue is empty
