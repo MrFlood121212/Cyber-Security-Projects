@@ -1,0 +1,19 @@
+# 🔍 Log Analyzer (Python)
+
+## 📌 Overview
+This project analyzes authentication logs and detects suspicious failed login attempts.
+
+## 🎯 Features
+- Parses log files
+- Detects failed logins
+- Counts attempts per IP
+- Flags suspicious activity
+
+## 🛠️ Technologies
+- Python 3
+- Regex / string parsing
+
+## 🚀 How to Run
+1. Clone repo
+2. Place log file in project folder
+3. Run:
