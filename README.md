@@ -1,1 +1,1 @@
-
+This repository contains a collection of cybersecurity projects that I built to strengthen my practical security skills and demonstrate real-world concepts. The projects focus on areas such as network security, vulnerability analysis, scripting for security automation, and defensive security techniques. Each project is designed to simulate real cybersecurity tasks and improve hands-on experience using tools, programming, and security best practices.
